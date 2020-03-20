@@ -1,2 +1,0 @@
-# quarantinetv
-Created with CodeSandbox

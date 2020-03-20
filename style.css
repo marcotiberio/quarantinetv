@@ -6,6 +6,10 @@ body {
   overflow: hidden;
 }
 
+#loader {
+  display: none;
+}
+
 .webcam {
   position: absolute;
   top: 0;
@@ -38,4 +42,51 @@ body {
   left: 5%;
   width: 70%;
   height: auto;
+}
+
+/*--------------------------------------------------------------
+## Mobile
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Mobile
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Mobile
+--------------------------------------------------------------*/
+
+/* Portrait */
+@media only screen 
+  and (max-width: 375px) { 
+
+    #loader {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+
+      font-family: Arial, Helvetica, sans-serif;
+    
+      background-color: black;
+      color: white;
+      text-align: center;
+    
+      z-index: 5000;
+    }
+
+    .loader-text {
+      padding: 50% 10% 1% 10%;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 376px) { 
+
+    #loader {
+      display: none;
+    }
+
 }

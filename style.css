@@ -21,7 +21,9 @@ body {
   height: auto;
 }
 
-/* #youtube {
+/* YOUTUBE  */
+
+/* #youtube {                   
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -42,6 +44,8 @@ body {
   z-index: 300;
 }*/
 
+/* YOUTUBE  */
+
 .tv {
   position: fixed;
   top: 0;
@@ -57,11 +61,11 @@ body {
   margin-right: auto;
   height: 100%;
   width: 90%;
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 100%; */
+  /* position: fixed; */      /* youtube */
+  /* top: 0; */               /* youtube */
+  /* left: 0; */              /* youtube */
+  /* width: auto; */          /* youtube */    
+  /* height: 100%; */         /* youtube */
   z-index: 302;
 }
 

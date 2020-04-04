@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    background-color: black;
+  }
+  
+  #loader {
+    display: none;
+  }
+  
+  .webcam {
+    position: relative;
+    margin-top: 6%;
+    margin-left: 19.5%;
+    /* z-index: 300; */
+    width: 100%;
+    height: auto;
+  }
+  
+  #youtube {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .video-responsive iframe{
+    left:0;
+    top:0;
+    height:60%;
+    width:60%;
+    position:absolute;
+    z-index: 300;
+  }
+  
+  .tv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #imagetv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 90%;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%; */
+    z-index: 102;
+  }
+  
+  #image0 {
+    position: fixed;
+    top: 9%;
+    left: 5%;
+    width: 70%;
+    height: auto;
+  }
+  
+  /*--------------------------------------------------------------
+  ## Mobile
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  ## Mobile
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  ## Mobile
+  --------------------------------------------------------------*/
+  
+  /* Portrait */
+  @media only screen 
+    and (max-width: 375px) { 
+  
+      #loader {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+  
+        font-family: Arial, Helvetica, sans-serif;
+      
+        background-color: black;
+        color: white;
+        text-align: center;
+      
+        z-index: 5000;
+      }
+  
+      .loader-text {
+        padding: 50% 10% 1% 10%;
+      }
+  
+  }
+  
+  /* Landscape */
+  @media only screen 
+    and (min-width: 376px) { 
+  
+      #loader {
+        display: none;
+      }
+  
+  }

@@ -118,6 +118,15 @@ body {
         display: none;
       }
 
+      .webcam {
+        position: relative;
+        margin-top: 5.5%;
+        margin-left: 22%;
+        /* z-index: 300; */
+        width: 100%;
+        height: auto;
+      }
+
       .video-responsive iframe{
         left:0;
         top:0;

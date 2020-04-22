@@ -121,7 +121,7 @@ body {
       .webcam {
         position: relative;
         margin-top: 5.5%;
-        margin-left: 24%;
+        margin-left: 24.5%;
         /* z-index: 300; */
         width: 100%;
         height: auto;
@@ -130,8 +130,8 @@ body {
       .video-responsive iframe{
         left:0;
         top:0;
-        height:52%;
-        width:52%;
+        height:53%;
+        width:53%;
         position:absolute;
         z-index: 300;
       }

@@ -3,7 +3,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 
   background-color: black;
 }
@@ -19,6 +18,32 @@ body {
   z-index: 300;
   width: 100%;
   height: auto;
+}
+
+.webcams {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+}
+
+.feed {
+  /* position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 10px;
+  overflow: hidden; */
+}
+
+.feed iframe,
+.feed object,
+.feed embed {
+    /* border: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
 }
 
 /* YOUTUBE  */

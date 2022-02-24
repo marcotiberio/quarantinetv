@@ -22,10 +22,12 @@ body {
 
 .webcams {
   align-items: center;
+  /* align-content: center; */
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-  width: 100vw;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: calc(100vw - 40px);
   height: 100vh;
 }
 
